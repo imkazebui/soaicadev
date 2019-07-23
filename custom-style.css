@@ -1,0 +1,33 @@
+/* custom css */
+#post-sidebar > .sidebar {
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  #post-sidebar {
+    display: none;
+  }
+}
+
+kbd {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0px 4px;
+  box-shadow: 1px 1px 1px #777;
+  margin: 2px;
+  font-size: small;
+  vertical-align: text-bottom;
+  background: #eee;
+  color: #555;
+  cursor: pointer;
+  font-variant: small-caps;
+  font-weight: 600;
+  /* letter-spacing: 0.5px; */
+  letter-spacing: 1px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

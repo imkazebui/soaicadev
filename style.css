@@ -10272,12 +10272,3 @@ div.wpcf7 input[type="file"]:disabled {
 }
 
 
-/* custom css */
- #post-sidebar  > .sidebar {
-	margin-top: 0;
-}
-
-@media (max-width: 1199px) {
-	#post-sidebar   {
-		display: none;
-}

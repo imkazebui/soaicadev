@@ -85,6 +85,12 @@ if ( ! function_exists( 'csco_enqueue_scripts' ) ) {
 		// Enqueue theme styles.
 		wp_enqueue_style( 'csco-styles' );
 
+		// Register custom styles.
+		wp_register_style( 'csco-custom-styles', csco_style( get_template_directory_uri() . '/custom-style.css' ));
+
+		// Enqueue custom styles.
+		wp_enqueue_style( 'csco-custom-styles' );
+
 		// Add RTL support.
 		wp_style_add_data( 'csco-styles', 'rtl', 'replace' );
 
