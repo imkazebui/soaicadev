@@ -63,7 +63,7 @@ if ( has_post_thumbnail() ) {
 		?>
 
 		<?php
-		if ( has_excerpt() ) {
+		if ( has_excerpt() && false ) {
 			?>
 			<div class="post-excerpt"><?php the_excerpt(); ?></div>
 			<?php
